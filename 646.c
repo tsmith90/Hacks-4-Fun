@@ -109,8 +109,8 @@ int main(int argc, char **argv)
 {
     int sock = 0;
     int data, port;
-    printf("\n[$] OSCP FRUSTRATION AND FEAR!\n");
-    printf("[$] by offensive-security pricks!\n\n");
+    printf("\n[$] Todd Smith hacks!\n");
+    printf("[$] Screw offensive-security pricks!\n\n");
     if ( argc < 2 ) { printf("usage: slmail-ex.exe <host> \n\n"); exit(0); }
     port = 110;
     sock = connect_target(argv[1], port);
